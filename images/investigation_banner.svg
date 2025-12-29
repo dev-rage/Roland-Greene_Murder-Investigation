@@ -1,0 +1,86 @@
+<svg id="banner" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background -->
+            <rect width="1200" height="400" fill="#1a1a1a"/>
+            
+            <!-- Top red stripe -->
+            <rect width="1200" height="8" fill="#dc2626"/>
+            
+            <!-- Grid pattern overlay -->
+            <defs>
+                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#333" stroke-width="0.5"/>
+                </pattern>
+            </defs>
+            <rect width="1200" height="400" fill="url(#grid)" opacity="0.3"/>
+            
+            <!-- Mugshot frame -->
+            <rect x="80" y="80" width="240" height="240" fill="#2a2a2a" stroke="#666" stroke-width="3"/>
+            <rect x="80" y="80" width="240" height="40" fill="#dc2626"/>
+            <text x="200" y="107" font-family="monospace" font-size="18" fill="white" text-anchor="middle" font-weight="bold">SUSPECT</text>
+            
+            <!-- Silhouette -->
+            <circle cx="200" cy="180" r="45" fill="#444"/>
+            <ellipse cx="200" cy="250" rx="60" ry="70" fill="#444"/>
+            <circle cx="190" cy="175" r="5" fill="#666"/>
+            <circle cx="210" cy="175" r="5" fill="#666"/>
+            
+            <!-- Height markers -->
+            <line x1="90" y1="140" x2="110" y2="140" stroke="#888" stroke-width="2"/>
+            <line x1="90" y1="180" x2="110" y2="180" stroke="#888" stroke-width="2"/>
+            <line x1="90" y1="220" x2="110" y2="220" stroke="#888" stroke-width="2"/>
+            <line x1="90" y1="260" x2="110" y2="260" stroke="#888" stroke-width="2"/>
+            <line x1="90" y1="300" x2="110" y2="300" stroke="#888" stroke-width="2"/>
+            
+            <!-- Case details -->
+            <text x="380" y="100" font-family="Arial, sans-serif" font-size="48" fill="#dc2626" font-weight="bold">CASE FILE</text>
+            <text x="380" y="135" font-family="monospace" font-size="16" fill="#999">CONFIDENTIAL - HOMICIDE INVESTIGATION</text>
+            
+            <line x1="380" y1="155" x2="900" y2="155" stroke="#444" stroke-width="2"/>
+            
+            <!-- Case information -->
+            <text x="380" y="190" font-family="Arial, sans-serif" font-size="36" fill="white" font-weight="bold">ROLAND GREENE MURDER</text>
+            <text x="380" y="220" font-family="monospace" font-size="18" fill="#aaa">Data-Driven SQL Investigation</text>
+            
+            <!-- Details grid -->
+            <text x="380" y="260" font-family="monospace" font-size="14" fill="#888">DATE:</text>
+            <text x="500" y="260" font-family="monospace" font-size="14" fill="white">June 1, 2025</text>
+            
+            <text x="380" y="285" font-family="monospace" font-size="14" fill="#888">LOCATION:</text>
+            <text x="500" y="285" font-family="monospace" font-size="14" fill="white">Vault Room, Private Estate</text>
+            
+            <text x="380" y="310" font-family="monospace" font-size="14" fill="#888">SUSPECTS:</text>
+            <text x="500" y="310" font-family="monospace" font-size="14" fill="white">30 Individuals</text>
+            
+            <text x="750" y="260" font-family="monospace" font-size="14" fill="#888">TIME OF DEATH:</text>
+            <text x="910" y="260" font-family="monospace" font-size="14" fill="white">20:00:00</text>
+            
+            <text x="750" y="285" font-family="monospace" font-size="14" fill="#888">METHOD:</text>
+            <text x="910" y="285" font-family="monospace" font-size="14" fill="white">Gunshot</text>
+            
+            <text x="750" y="310" font-family="monospace" font-size="14" fill="#888">STATUS:</text>
+            <text x="910" y="310" font-family="monospace" font-size="14" fill="#22c55e" font-weight="bold">✓ SOLVED</text>
+            
+            <!-- Bottom details -->
+            <rect x="380" y="335" width="520" height="35" fill="#dc2626" opacity="0.2"/>
+            <text x="640" y="358" font-family="monospace" font-size="16" fill="white" text-anchor="middle" font-weight="bold">KILLER IDENTIFIED: JAMIE BENNETT</text>
+            
+            <!-- Evidence stamp -->
+            <circle cx="1050" cy="200" r="70" fill="none" stroke="#dc2626" stroke-width="4" opacity="0.6"/>
+            <text x="1050" y="190" font-family="Arial, sans-serif" font-size="20" fill="#dc2626" text-anchor="middle" font-weight="bold">CASE</text>
+            <text x="1050" y="215" font-family="Arial, sans-serif" font-size="20" fill="#dc2626" text-anchor="middle" font-weight="bold">CLOSED</text>
+            
+            <!-- Barcode -->
+            <g transform="translate(80, 340)">
+                <rect x="0" y="0" width="3" height="30" fill="white"/>
+                <rect x="5" y="0" width="2" height="30" fill="white"/>
+                <rect x="9" y="0" width="4" height="30" fill="white"/>
+                <rect x="15" y="0" width="2" height="30" fill="white"/>
+                <rect x="19" y="0" width="3" height="30" fill="white"/>
+                <rect x="24" y="0" width="2" height="30" fill="white"/>
+                <rect x="28" y="0" width="4" height="30" fill="white"/>
+                <rect x="34" y="0" width="3" height="30" fill="white"/>
+                <rect x="39" y="0" width="2" height="30" fill="white"/>
+                <rect x="43" y="0" width="4" height="30" fill="white"/>
+                <text x="0" y="45" font-family="monospace" font-size="10" fill="#666">CASE-2025-RG-001</text>
+            </g>
+        </svg>
