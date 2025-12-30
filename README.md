@@ -10,15 +10,14 @@
 **Case Status:** 🎯 SOLVED
 
 ## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [Case Summary](#case-summary)
-- [Data Sources](#data-sources)
-- [Investigation Methodology](#investigation-methodology)
-- [Key Findings](#key-findings)
-- [SQL Techniques Used](#sql-techniques-used)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Results](#results)
-
+- [Project Overview](#-project-overview)
+- [Case Summary](#-case-summary)
+- [Data Sources](#-data-sources)
+- [Investigation Methodology](#-investigation-methodology)
+- [Key Findings](#-key-findings)
+- [SQL Techniques Used](#-sql-techniques-used)
+- [How to Use This Repository](#-how-to-use-this-repository)
+- [Results](#-results)
 ---
 
 ## 🎯 Project Overview
