@@ -165,8 +165,8 @@ roland-greene-murder-investigation/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/dev-rage/roland-greene-murder-investigation.git
-cd roland-greene-murder-investigation
+git clone https://github.com/dev-rage/Roland-Greene_Murder-Investigation.git
+cd Roland-Greene_Murder-Investigation
 ```
 
 2. **Create the database**
